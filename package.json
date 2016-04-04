@@ -8,8 +8,11 @@
     "sys-hub": "lib/cli.js"
   },
   "dependencies": {
+    "cli-table": "^0.3.1",
     "colors": "^1.1.2",
-    "tedious": "^1.13.2"
+    "commander": "^2.9.0",
+    "tedious": "^1.13.2",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
     "mocha": "^2.4.5",
