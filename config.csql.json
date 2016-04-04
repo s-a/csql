@@ -1,8 +1,8 @@
 {
     "type" : "MSSQL",
-	"server" : "***",
-	"userName" : "***",
-	"password" : "***",
+	"server" : "localhost",
+	"userName" : "sa",
+	"password" : "sql",
 	"options" : {
         "requestTimeout" : 30000,
         "data": true,
