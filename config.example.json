@@ -1,0 +1,14 @@
+{
+    "type" : "MSSQL",
+	"server" : "***",
+	"userName" : "***",
+	"password" : "***",
+	"options" : {
+        "requestTimeout" : 30000,
+        "data": true,
+        "payload" : false,
+        "token" : false,
+        "packet" : true,
+        "log": true
+    }
+}
