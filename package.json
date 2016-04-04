@@ -1,0 +1,34 @@
+{
+  "name": "csql",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/cli.js",
+  "preferGlobal": true,
+  "bin": {
+    "sys-hub": "lib/cli.js"
+  },
+  "dependencies": {
+    "tedious": "^1.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node lib/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump": "npm version patch && git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/csql.git"
+  },
+  "keywords": [
+    "sql",
+    "commandline",
+    "terminal"
+  ],
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/csql/issues"
+  },
+  "homepage": "https://github.com/s-a/csql#readme"
+}
