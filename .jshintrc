@@ -28,7 +28,8 @@
     "debug"         : false,
     "devel"         : true,
     "es5"           : false,
-    "strict"        : false,
+    "strict"        : true,
+    "node"          : true, 
     "globalstrict"  : false,
 
 
