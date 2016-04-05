@@ -3,7 +3,6 @@
     "passfail"      : false,
     "maxerr"        : 100,
     "browser"       : true,
-    "node"          : false,
     "rhino"         : false,
     "couch"         : false,
     "wsh"           : true,
@@ -31,7 +30,7 @@
     "strict"        : true,
     "node"          : true, 
     "globalstrict"  : false,
-
+    "smarttabs"     : false, 
 
 
     "asi"           : true,
